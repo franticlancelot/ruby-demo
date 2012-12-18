@@ -6,6 +6,7 @@ text = lines.join
 #Count the characters
 total_characters  = text.length
 total_characters_nospaces = text.gsub(/\s+/,'').length
+total_characters_nospaces2 = text.gsub(/\s+/,'').length
 
 #Count the words, sentences and paragraphs
 word_count = text.split.length
